@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyectos - Mi Portafolio</title>
+  <title>Proyectos - Miguel Zambrano | Portafolio</title>
+  <meta name="description"
+    content="Explora los proyectos de Miguel Zambrano, desarrollador web con experiencia en GitHub y tecnologías modernas como Vue.js, Django y más.">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
   <!-- Navegación -->
   <header>
-    <nav>
+    <nav aria-label="Navegación principal">
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="proyectos.html" class="active">Proyectos</a></li>
@@ -22,22 +26,70 @@
   <!-- Sección de proyectos -->
   <main>
     <section class="collage">
-      <article><a href="https://github.com/MAZP73" target="_blank"><img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain" alt="Proyecto 1"> <div class="overlay">Proyecto 1</div></a></article>
-      <article><a href="https://github.com/MAZP73" target="_blank"><img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain" alt="Proyecto 2"> <div class="overlay">Proyecto 2</div></a></article>
-      <article><a href="https://github.com/MAZP73" target="_blank"><img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain" alt="Proyecto 3"> <div class="overlay">Proyecto 3</div></a></article>
-      <article><a href="https://github.com/MAZP73" target="_blank"><img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain" alt="Proyecto 4"> <div class="overlay">Proyecto 4</div></a></article>
-      <article><a href="https://github.com/MAZP73" target="_blank"><img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain" alt="Proyecto 4"> <div class="overlay">Proyecto 5</div></a></article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de portafolio de tienda en línea con Vue.js y Django" loading="lazy">
+          <div class="overlay">Proyecto 1</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de portafolio de blog personal con Vue.js" loading="lazy">
+          <div class="overlay">Proyecto 2</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de página de inicio de sesión con Django y MySQL" loading="lazy">
+          <div class="overlay">Proyecto 3</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de API RESTful con FastAPI y PostgreSQL" loading="lazy">
+          <div class="overlay">Proyecto 4</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de panel administrativo con Tailwind CSS" loading="lazy">
+          <div class="overlay">Proyecto 5</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://github.com/MAZP73" target="_blank" rel="noopener">
+          <img src="https://th.bing.com/th/id/OIP.tUidC71DuFwjno8Thjy2lgHaHa?rs=1&pid=ImgDetMain"
+            alt="Proyecto de sistema de autenticación con JWT" loading="lazy">
+          <div class="overlay">Proyecto 6</div>
+        </a>
+      </article>
     </section>
   </main>
 
-  <!-- Pie de página -->
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Portafolio. Todos los derechos reservados.</p>
+    <h4>&copy; 2025 Portafolio. Todos los derechos reservados.</h4>
     <section class="social-links">
-      <a href="https://github.com/MAZP73" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.facebook.com/tuusuario" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/tuusuario" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/MAZP73" target="_blank" title="GitHub"
+        aria-label="Perfil de GitHub de Miguel Zambrano">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/_nm___ms____13_" target="_blank" title="Facebook"
+        aria-label="Perfil de Facebook de Miguel Zambrano">
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/_nm___ms____13_" target="_blank" title="Instagram"
+        aria-label="Perfil de Instagram de Miguel Zambrano">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
     </section>
   </footer>
+
 </body>
+
 </html>

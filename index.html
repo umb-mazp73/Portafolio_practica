@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicio - Mi Portafolio</title>
+  <title>Inicio - Miguel Zambrano | Desarrollador Web</title>
+  <meta name="description"
+    content="Portafolio de Miguel Zambrano, desarrollador web con experiencia en tecnologías modernas">
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-  <!-- Navegación -->
+  <!-- navegacion -->
   <header>
-    <nav>
+    <nav aria-label="Navegación principal">
       <ul>
         <li><a href="index.html" class="active">Inicio</a></li>
         <li><a href="proyectos.html">Proyectos</a></li>
@@ -19,35 +23,118 @@
     </nav>
   </header>
 
-  <!-- Sección de inicio -->
   <main>
-    <section id="inicio">
+    <!-- inicio -->
+    <section class="inicio">
       <h1>Miguel <span>.</span> Zambrano</h1>
+      <h2>Bienvenido a mi portafolio profesional</h2>
     </section>
 
-    <!-- Sección de habilidades -->
-    <section class="habilidades">
-      <h2>Habilidades</h2>
-      <div class="iconos">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" />
-        <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" />
-        <img src="https://cdn.freebiesupply.com/logos/large/2x/vue-9-logo-png-transparent.png" alt="vue" />
-        <img src="https://inspector.dev/wp-content/uploads/2023/04/logo-python-django.png" alt="django" />
-        <img src="https://vectorseek.com/wp-content/uploads/2023/09/FastAPI-Logo-Vector.svg-.png" alt="fastapi" />
-        <img src="https://www.pngkey.com/png/full/264-2646582_logo-transparent-background-java.png" alt="java" />
+    <!-- perfil -->
+    <section class="perfil">
+      <h2>Perfil</h2>
+      <div class="perfil-contenido">
+        <article class="acerca">
+          <h3>Acerca de mí</h3>
+          <p>Hola, soy Miguel Zambrano, un apasionado desarrollador web con experiencia en diversas tecnologías. Me
+            encanta crear soluciones innovadoras y eficientes.</p>
+          <p>Mi objetivo es seguir aprendiendo y creciendo en el mundo del desarrollo web.</p>
+
+          <small>
+            <a href="https://cdn.verbub.com/images/yo-escribiendo-mi-hoja-de-vida-cv-un-tipazo-42422.jpg"
+              target="_blank" rel="noopener">
+              Ver mi currículum completo (.pdf)
+            </a>
+          </small>
+        </article>
+
+        <figure class="foto">
+          <img
+            src="https://th.bing.com/th/id/R.6a76cbf6281a09ce8bed19421f5416ce?rik=bBaIIGWOgHXbEQ&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20130329171400%2fsimpsons%2fpt%2fimages%2f6%2f61%2fHomer_computador.png&ehk=0TJJuysyQLDRLRaLhQS1BuDqB2byEqDE1XSQFrNWgfk%3d&risl=&pid=ImgRaw&r=0"
+            alt="Caricatura de desarrollador web trabajando en su computadora" loading="lazy" />
+        </figure>
+
+        <aside class="habilidades">
+          <h3>Habilidades blandas</h3>
+          <ul>
+            <li>Comunicación efectiva</li>
+            <li>Trabajo en equipo</li>
+            <li>Empatía</li>
+            <li>Pensamiento crítico</li>
+            <li>Resolución de problemas</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- tecnologías -->
+    <section class="tecnologias">
+      <h2>Tecnologías</h2>
+      <div class="iconos-wrapper">
+        <div class="iconos" id="iconos">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap"
+            loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL" loading="lazy">
+          <img src="https://cdn.freebiesupply.com/logos/large/2x/vue-9-logo-png-transparent.png" alt="Vue.js"
+            loading="lazy">
+          <img src="https://1000logos.net/wp-content/uploads/2020/08/Django-Logo-1536x960.png" alt="Django"
+            loading="lazy">
+          <img src="https://svglogos.net/wp-content/uploads/fastapi.svg" alt="FastAPI" loading="lazy">
+          <img src="https://www.pngkey.com/png/full/264-2646582_logo-transparent-background-java.png" alt="Java"
+            loading="lazy">
+          <img src="https://th.bing.com/th/id/R.f7a483ddf1a71154bfc8eee6eb20ec02?rik=zOksajs5vBTnaw&pid=ImgRaw&r=0"
+            alt="Python" loading="lazy">
+          <img src="https://i.pinimg.com/originals/01/e5/00/01e500fca29c045d432b64f285f9c229.png" alt="GitHub"
+            loading="lazy">
+          <img src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png"
+            alt="Tailwind CSS" loading="lazy">
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- Pie de página -->
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Portafolio. Todos los derechos reservados.</p>
+    <h4>&copy; 2025 Portafolio. Todos los derechos reservados.</h4>
     <section class="social-links">
-      <a href="https://github.com/MAZP73" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://www.facebook.com/_nm___ms____13_" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
-      <a href="https://www.instagram.com/_nm___ms____13_" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/MAZP73" target="_blank" title="GitHub"
+        aria-label="Perfil de GitHub de Miguel Zambrano">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/_nm___ms____13_" target="_blank" title="Facebook"
+        aria-label="Perfil de Facebook de Miguel Zambrano">
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/_nm___ms____13_" target="_blank" title="Instagram"
+        aria-label="Perfil de Instagram de Miguel Zambrano">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
     </section>
   </footer>
+
+  <script>
+    const slider = document.getElementById("iconos");
+
+    let scrollAmount = 0;
+    const scrollStep = 1;
+    const maxScroll = slider.scrollWidth - slider.clientWidth;
+
+    function autoScroll() {
+      scrollAmount += scrollStep;
+      if (scrollAmount >= maxScroll) scrollAmount = 0;
+      slider.scrollTo({
+        left: scrollAmount,
+        behavior: 'smooth'
+      });
+    }
+
+    let scrollInterval = setInterval(autoScroll, 30);
+
+    slider.addEventListener('mouseover', () => clearInterval(scrollInterval));
+    slider.addEventListener('mouseout', () => scrollInterval = setInterval(autoScroll, 30));
+  </script>
+
 </body>
+
 </html>
